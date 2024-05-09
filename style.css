@@ -6,9 +6,9 @@
 }
 body{
     color: #ededed;
-    
     background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
 }
+
 .header{
     position: fixed;
     top: 0;
@@ -90,6 +90,26 @@ body{
     text-decoration: none;
     margin: 30px 15px 30px 0;
 }
+.contact{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.contact-content{
+    border-radius: 20px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
 .home-sci a:hover{
     background: #0ef;
     color: #000844;
@@ -107,13 +127,53 @@ body{
     background: rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(6px);
-    display: flex;
+    backdrop-filter: blur(6px);display: flex;
     flex-direction: row;
     display: inline-block;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
+}
+.section_title{
+    margin-bottom: 2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact_description{
+    margin-bottom: 3rem;
+
+  
+}
+.contact_description a{
+    text-decoration: none;
+    color: #ededed;
+}
+.contact_input{
+    border: 2px solid;
+    padding: 0.8rem 1.25rem;
+    width: 100%;
+    border-radius:  50px;;
+    font-size:  15px; 
+    margin-bottom: 1.25rem;
+}
+.btn{
+    display: inline-block;
+    background:transparent;
+    color:#0ef ;
+    border: 2px solid ;
+    border-radius: 2cm;
+    padding: 1rem 2.5rem;
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color:#0ef;
+    color:#000844;
 }
 .btn-box:hover{
     backdrop-filter: blur(0);
