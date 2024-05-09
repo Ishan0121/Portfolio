@@ -6,6 +6,8 @@
 }
 body{
     color: #ededed;
+    
+    background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
 }
 .header{
     position: fixed;
@@ -20,11 +22,16 @@ body{
     z-index: 100;
 }
 .logo{
-    position: relative;
+    position: absolute;
     font-size: 25px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
+    top: 20px;
+    left: 5%;
+}
+.logo span{
+    color: red;
 }
 .navbar a{
     display: inline-block;
@@ -37,18 +44,22 @@ body{
 }
 .navbar a:hover{
     color: #0ef;
+    box-shadow: 0 0 20px #0ef;
+    border-radius: 50px;
+    padding: 10px;
 }
 .home{
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:rgb(3, 17, 39);
     background-size: cover;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+    padding-block: 16rem 9rem;
 }
+
 .home-content{
     max-width: 600px;
 }
@@ -78,4 +89,41 @@ body{
     color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30px 0;
+}
+.home-sci a:hover{
+    background: #0ef;
+    color: #000844;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box{
+    position: absolute;
+    right:5%;
+    top: 20px;
+    text-decoration: none;
+    padding: 12px 28px;
+    color: #ededed;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.btn-box:hover{
+    backdrop-filter: blur(0);
+    background: #0ef;
+    color: #000844;
+    box-shadow: 0 0 20px #0ef;
+}
+.home_img{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    box-shadow: 0 0 70px #0ef;
 }
