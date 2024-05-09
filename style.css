@@ -48,7 +48,7 @@ body{
     border-radius: 50px;
     padding: 10px;
 }
-.home{
+.home, .about{
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -60,7 +60,7 @@ body{
     padding-block: 16rem 9rem;
 }
 
-.home-content{
+.home-content, .about-content{
     max-width: 600px;
 }
 .home-content h3{
