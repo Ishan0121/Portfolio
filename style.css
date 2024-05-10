@@ -21,6 +21,9 @@ body{
     align-items: center;
     z-index: 100;
 }
+header.sticky{
+    background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
+}
 .logo{
     position: absolute;
     font-size: 25px;
@@ -187,4 +190,83 @@ body{
     height: 420px;
     border-radius: 50%;
     box-shadow: 0 0 70px #0ef;
+}
+
+/* projects */
+.projects{
+    margin-bottom: 3rem;
+}
+.projects h2{
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.projects-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 2.9rem;
+    margin-left: 2rem;
+}
+.projects-content .projects-box{
+    width: 90%;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #0ef;
+    overflow: hidden;
+    display: flex;
+}
+.projects-box img{
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0.7;
+}
+.projects-box:hover img{
+    transform: scale(1.1);
+}
+.projects-box .projects-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1) , #000844);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.projects-box:hover .projects-layer{
+    transform: translateY(0);
+}
+.projects-layer h4{
+    font-size: 2rem;
+}
+.projects-layer p{
+    font-size: 1.3rem;
+    margin: .3rem 0 1rem;
+}
+.projects-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #ededed;
+    border-radius: 50%;
+}
+.projects-layer a i{
+    font-size: 1rem;
+    color: #000844;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.heading span{
+    color: #0ef;
 }
