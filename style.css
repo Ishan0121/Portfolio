@@ -23,6 +23,7 @@ body{
 }
 header.sticky{
     background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
+    box-shadow: 0 0 20px #0ef;
 }
 .logo{
     position: absolute;
@@ -123,7 +124,7 @@ header.sticky{
 .btn-box{
     position: absolute;
     right:5%;
-    top: 20px;
+    top: 13px;
     text-decoration: none;
     padding: 12px 28px;
     color: #ededed;
