@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family:'poppins' , sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+.section {
+    padding: 50px 0; /* Adjust padding as needed */
+  }
 body{
     color: #ededed;
     background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
@@ -50,7 +56,7 @@ header.sticky{
     text-shadow: 0 0 20px #0ef;
     border-bottom: 3px solid #0ef; /* Blue underline */
     color: #0ef; /* Text color change on active */
-    transition: 4.7s;
+    transition: .7s;
   }
 .navbar a:hover{
     color: #0ef;
@@ -209,11 +215,11 @@ header.sticky{
 
 /* projects */
 .projects{
+    padding-top: 5rem;
     margin-bottom: 3rem;
 }
 .projects h2{
     margin-bottom: 2rem;
-    margin-top: 4rem;
 }
 
 .projects-content{
