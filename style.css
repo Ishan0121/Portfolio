@@ -185,7 +185,7 @@ header.sticky{
     color: #000844;
     box-shadow: 0 0 20px #0ef;
 }
-.home_img ,.about-img{
+.home_img,.about_img{
     width: 420px;
     height: 420px;
     border-radius: 50%;
