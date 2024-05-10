@@ -77,3 +77,17 @@ window.addEventListener('scroll', () => {
   });
 });
 
+// JavaScript to control music playback
+const audioElement = document.getElementById("background-music");
+const toggleButton = document.getElementById("toggle-music");
+
+toggleButton.addEventListener("click", () => {
+  if (audioElement.paused) {
+    audioElement.play(); // Play music
+    toggleButton.innerHTML = `<i class="fa-solid fa-volume-high"></i>`; // Change button text
+  } else {
+    audioElement.pause(); // Pause music
+    toggleButton.innerHTML =`<i class="fa-solid fa-volume-xmark"></i>`; // Change button text
+  }
+});
+

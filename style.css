@@ -7,12 +7,10 @@
 html{
     scroll-behavior: smooth;
 }
-.section {
-    padding: 50px 0; /* Adjust padding as needed */
-  }
 body{
     color: #ededed;
     background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
+    transition: 0.5s;
 }
 
 .header{
@@ -39,9 +37,19 @@ header.sticky{
     font-weight: 600;
     top: 20px;
     left: 5%;
+    transition: 0.5s;
+}
+.logo:hover{
+    color: red;
+    transition: 0.5s;
+}
+.logo:hover span{
+    color: #ededed;
+    transition: 0.5s;
 }
 .logo span{
     color: red;
+    transition: 0.5s;
 }
 .navbar a{
     display: inline-block;
@@ -58,11 +66,12 @@ header.sticky{
     color: #0ef; /* Text color change on active */
     transition: .7s;
   }
-.navbar a:hover{
+.navbar a:hover,h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,p:hover{
     color: #0ef;
     font-weight: 600;
     text-shadow: 0 0 20px #0ef;
     transition: .4s;
+    transition: 0.5s;
 }
 .home, .about{
     position: relative;
@@ -93,7 +102,7 @@ header.sticky{
 .home-content p{
     font-size: 20px;
 }
-.home-sci a{
+.home-sci a,#toggle-music{
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -106,6 +115,15 @@ header.sticky{
     text-decoration: none;
     margin: 30px 15px 30px 0;
 }
+#toggle-music{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+    border: none;
+}
+
 .contact{
     position: relative;
     width: 100%;
@@ -128,10 +146,11 @@ header.sticky{
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(6px);
 }
-.home-sci a:hover{
+.home-sci a:hover,#toggle-music:hover{
     background: #0ef;
     color: #000844;
     box-shadow: 0 0 20px #0ef;
+    transition: .3s;
 }
 .btn-box{
     position: absolute;
