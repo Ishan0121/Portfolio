@@ -16,7 +16,7 @@
     <header class="header">
         <a href="#" class="logo">P<span>o</span>rtf<span>o</span>li<span>o</span></a>
         <button id="toggle-music"><i class="fa-solid fa-volume-high"></i></button>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -33,7 +33,7 @@
                 <h3>Hello, It's me</h3>
                 <h1>Ishan Maiti</h1>
                 <h3>And I'm a</h3>
-                <p>Passionate developer, still learning.</p>
+                <p>Passionate developer.</p>
             </div>
             <div class="home-sci">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -42,11 +42,11 @@
                 <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
-            <div><img src="assets/home.jpg" alt="home-img" class="home_img"></div>
+            <div class="im"><img src="assets/home.jpg" alt="home-img" class="home_img"></div>
     </section>
 
     <section class="about">
-        <div><img src="assets/about.png" alt="about-img" class="about_img"></div>
+        <div class="im"><img src="assets/about.png" alt="about-img" class="about_img"></div>
         <div class="about-content">
             <div class="txtt">
                 <h1>About Me</h1>
@@ -205,37 +205,19 @@
 
             <form class="contact_form" id="contact-form">
                 <div class="contact_from-input">
-                    <input
-                     type="text" 
-                     name="name"
-                      placeholder="Your Name*"
-                      class="contact_input"
-                       id="contact-name"
-                       />
+                    <input type="text"  name="name"  placeholder="Your Name*"  class="contact_input"   id="contact-name"   />
                 </div>
 
                 <div class="contact_from-input">
-                    <input
-                     type="email" 
-                     name="email"
-                      placeholder="Your email*"
-                      class="contact_input"
-                       id="contact-email"
-                       />
+                    <input type="email"  name="email"  placeholder="Your email*"  class="contact_input"   id="contact-email"   />
                 </div>
 
                 <div class="contact_from-input">
-                    <input
-                     type="text" 
-                     name="subject"
-                      placeholder="Write a subject*"
-                      class="contact_input"
-                       id="contact-subject"
-                       />
+                    <input type="text"  name="subject"  placeholder="Write a subject*"  class="contact_input"   id="contact-subject"   />
                 </div>
 
                 <div class="contact_from-input">
-                 <textarea name="message" id="contact-message" class="contact_input textarea" placeholder="Your Message"></textarea>
+                 <textarea name="message" id="contact-message" class="contact_input" placeholder="Your Message"></textarea>
                 </div>
 
                 <input type="submit" value="Submit" class="btn"/>
@@ -243,8 +225,13 @@
             </form>
         </div>
         
-        <div><img src="assets/contact.jpeg" alt="home-img" class="contact_img"></div>
+        <div class="im" id="con"><img src="assets/contact.jpeg" alt="home-img" class="contact_img"></div>
     </section>
+    <footer class="footer">
+        <nav class="navbar" id="taskbar">
+
+        </nav>
+    </footer>
   <script src="script.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 20px 10%;
     background: transparent;
     display: flex;
@@ -29,6 +29,7 @@ header.sticky{
     background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
     box-shadow: 0 0 20px #0ef;
 }
+
 .logo{
     position: absolute;
     font-size: 25px;
@@ -75,7 +76,7 @@ header.sticky{
 }
 .home, .about{
     position: relative;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
     height: 100vh;
     background-size: cover;
@@ -126,7 +127,7 @@ header.sticky{
 
 .contact{
     position: relative;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
     height: 100vh;
     background-size: cover;
@@ -135,7 +136,7 @@ header.sticky{
     padding: 70px 10% 0;
 }
 .contact-content{
-    width: 490px;
+    width: 40%;
     border-radius: 20px;
     padding: 28px 32px;
     display: flex;
@@ -180,8 +181,6 @@ header.sticky{
 }
 .contact_description{
     margin-bottom: 3rem;
-
-  
 }
 .contact_description a{
     text-decoration: none;
@@ -191,7 +190,7 @@ header.sticky{
     border: 2px solid;
     padding: 0.8rem 1.25rem;
     width: 100%;
-    border-radius:  50px;;
+    border-radius:  50px;
     font-size:  15px; 
     margin-bottom: 1.25rem;
 }
@@ -309,4 +308,152 @@ header.sticky{
 }
 .heading span{
     color: #0ef;
+}
+
+
+
+
+@media all and (min-width: 1001px) {
+
+}
+
+@media all and (max-width: 1000px) and (min-width: 610px) {
+  
+}
+
+@media all and (max-width: 609px){ 
+    .btn-box{
+        padding: 6px 8px;
+        font-size: 11px;
+        top: 17%;
+        letter-spacing: 1px;
+    }
+    .logo{
+        font-size: 24px;
+        top: 14%;
+    }
+    .home_img{
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    .home-content{
+        padding-top: 20%;
+    }
+    .home-content h1{
+        font-size: 46px;
+        font-weight: 700;
+    }
+    .contact_img{
+        width: 320px;
+        height: 320px;
+    }
+    .about_img{
+        width: 280px;
+        height: 280px;
+    }
+    .im{
+        display: flex;
+        justify-content: center;
+    }
+    .contact .im{
+        align-items: center;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0px;
+        width: 100vw;
+        padding: 10px 10%;
+        background: linear-gradient(90deg ,rgb(0, 0, 0),#000844 );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    .contact-content{
+        width: 100%;
+        margin-top: 30%;
+    }
+    .section_title{
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    .contact_input{
+        padding: 0.4rem;
+        font-size:  15px; 
+        margin-bottom: 1.25rem;
+    }
+    footer.sticky{
+        background:linear-gradient(90deg ,rgb(0, 0, 0),#000844 ) ;
+        box-shadow: 0 0 20px #0ef;
+    }
+    .about,.home,.contact{
+        display:block;
+        padding-block: 90px;
+    }
+    .navbar a{
+        margin-left:35px ;
+    }
+    .navbar{
+        margin-left: -35px;
+    }
+    .home-sci a{
+        margin-top: 30px;
+    }
+    #toggle-music{
+        top: 7px;
+        left: 34%;
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+    }.projects-content{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        margin-left: 1rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .projects-layer h4{
+        font-size: 1.2rem;
+    }
+    .projects-layer p{
+        font-size: 0.8rem;
+        margin: 0rem 0 -1rem;
+    }
+    .projects-layer a{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .projects-layer a i{
+        font-size: 0.5rem;
+    }
+    .home_img:hover{
+        width: 270px;
+        height: 270px;
+        transition: 0.4s;
+    }
+    .about_img:hover{
+        width: 290px;
+        height: 290px;
+        transition: 0.4s;
+    }
+    .contact_img:hover{
+        width: 10px;
+        height: 140px;
+        transition: 0.4s;
+    }
+    
+    .contact_description{
+        margin-bottom: 1rem;
+    }
+    .btn{
+        border-radius: 50px;
+        padding: 0.5rem 1.5rem;
+        font-size:14px;
+    }
+    .contact_img{
+        z-index: -10;
+    }
 }

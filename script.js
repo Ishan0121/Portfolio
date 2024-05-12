@@ -1,7 +1,30 @@
+// responsive
+const width = window.screen.width;
+const nav = document.getElementById("navbar");
+const taskbar = document.getElementById("taskbar");
+const contactImage = document.getElementById("con");
+if(width<610){
+  nav.innerHTML=``;
+  taskbar.innerHTML=`<a href="#home"><i class="fa-solid fa-house"></i></a>
+  <a href="#about"><i class="fa-solid fa-id-card"></i></a>
+  <a href="#projects"><i class="fa-solid fa-list-check"></i></a>
+  <a href="#contact"><i class="fa-solid fa-comments"></i></a>`;
+
+  con.innerHTML = ``;
+  window.addEventListener("scroll",function(){
+    var footer = document.querySelector("footer");
+    footer.classList.toggle("sticky",window.scrollY > 0)
+  });
+}
+
+
+
+
+
 window.addEventListener("scroll",function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky",window.scrollY > 0)
-})
+});
 // Get all navigation links in the navbar
 const navLinks = document.querySelectorAll('.navbar a');
 
