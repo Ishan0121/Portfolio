@@ -5,6 +5,7 @@ const taskbar = document.getElementById("taskbar");
 const contactImage = document.getElementById("con");
 if(width<610){
   nav.innerHTML=``;
+  // adding footer
   taskbar.innerHTML=`<a href="#home"><i class="fa-solid fa-house"></i></a>
   <a href="#about"><i class="fa-solid fa-id-card"></i></a>
   <a href="#projects"><i class="fa-solid fa-list-check"></i></a>
@@ -16,8 +17,6 @@ if(width<610){
     footer.classList.toggle("sticky",window.scrollY > 0)
   });
 }
-
-
 
 
 
