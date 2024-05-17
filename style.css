@@ -147,9 +147,15 @@ header.sticky{
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(6px);
 }
-.home-sci a:hover,#toggle-music:hover{
+#toggle-music:hover{
     background: #0ef;
     color: #000844;
+    box-shadow: 0 0 20px #0ef;
+    transition: .3s;
+}
+.home-sci a:hover{
+    background: var(--clr);
+    color: #ffffff;
     box-shadow: 0 0 20px #0ef;
     transition: .3s;
 }
