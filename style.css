@@ -145,6 +145,7 @@ header.sticky{
     background: rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 }
 #toggle-music:hover{
@@ -171,7 +172,9 @@ header.sticky{
     background: rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(6px);display: flex;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    display: flex;
     flex-direction: row;
     display: inline-block;
     font-size: 16px;
