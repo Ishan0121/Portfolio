@@ -53,12 +53,14 @@ header.sticky{
     transition: 0.5s;
 }
 .navbar a{
+    width: 95px;
     display: inline-block;
     font-size:25px;
-    color: #ffffff;
+    color: #ededed;
     text-decoration: none;
     font-weight: 500;
     margin-left:35px ;
+    text-align: center;
 }
 .navbar a.active {
     font-weight: 600;
@@ -322,13 +324,13 @@ header.sticky{
 
 
 
-@media all and (min-width: 1001px) {
+/* @media all and (min-width: 1001px) {
 
 }
 
 @media all and (max-width: 1000px) and (min-width: 610px) {
   
-}
+} */
 
 @media all and (max-width: 609px){ 
     .btn-box{
