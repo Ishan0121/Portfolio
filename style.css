@@ -78,7 +78,7 @@ header.sticky{
 }
 .home, .about{
     position: relative;
-    width: 100vw;
+    width: 98vw;
     justify-content: space-between;
     height: 100vh;
     background-size: cover;
@@ -132,7 +132,7 @@ header.sticky{
 
 .contact{
     position: relative;
-    width: 100vw;
+    width: 98vw;
     justify-content: space-between;
     height: 100vh;
     background-size: cover;
