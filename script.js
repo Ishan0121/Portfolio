@@ -1,57 +1,5 @@
-// responsive
-const width = window.screen.width;
-const nav = document.getElementById("navbar");
-const taskbar = document.getElementById("taskbar");
-const contactImage = document.getElementById("con");
-if(width<610){
-  nav.innerHTML=``;
-  // adding footer
-  taskbar.innerHTML=`<a href="#home"><i class="fa-solid fa-house"></i></a>
-  <a href="#about"><i class="fa-solid fa-id-card"></i></a>
-  <a href="#projects"><i class="fa-solid fa-list-check"></i></a>
-  <a href="#contact"><i class="fa-solid fa-comments"></i></a>`;
-
-  con.innerHTML = ``;
-  window.addEventListener("scroll",function(){
-    var footer = document.querySelector("footer");
-    footer.classList.toggle("sticky",window.scrollY > 0)
-  });
-}
-
-
-
-window.addEventListener("scroll",function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky",window.scrollY > 0)
-});
-// Get all navigation links in the navbar
-const navLinks = document.querySelectorAll('.navbar a');
-
-// Function to remove 'active' from all navigation links
-function clearActiveClasses() {
-  navLinks.forEach((link) => {
-    link.classList.remove('active');
-  });
-}
-
-// Add event listeners to each navigation link
-navLinks.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent the default action (optional, if you don't want to reload the page)
-    
-    // Clear 'active' from all links
-    clearActiveClasses();
-
-    // Add 'active' to the clicked link
-    link.classList.add('active');
-  });
-});
-
-
-
-
 // Get all navigation links
-// const navLinks = document.querySelectorAll('.navbar a');
+const navLinks = document.querySelectorAll('.navbar a');
 
 // Get all sections by their class names (which are mapped to navigation links)
 const sections = Array.from(navLinks).map(link => {
@@ -112,4 +60,3 @@ toggleButton.addEventListener("click", () => {
     toggleButton.innerHTML =`<i class="fa-solid fa-volume-xmark"></i>`; // Change button text
   }
 });
-

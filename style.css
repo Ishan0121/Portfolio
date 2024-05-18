@@ -323,7 +323,9 @@ header.sticky{
 .heading span{
     color: var(--base2);
 }
-
+#taskbar{
+    display: none;
+}
 
 
 
@@ -470,5 +472,15 @@ header.sticky{
     }
     .contact_img{
         z-index: -10;
+    }
+    #taskbar{
+        display:block;
+    }
+    #con{
+        display: none;
+        position: absolute;
+    }
+    #navbar{
+        display: none;
     }
 }
