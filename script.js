@@ -1,3 +1,7 @@
+window.addEventListener("scroll",function(){
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky",window.scrollY > 0)
+});
 // Get all navigation links
 const navLinks = document.querySelectorAll('.navbar a');
 
