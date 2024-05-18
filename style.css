@@ -408,6 +408,7 @@ header.sticky{
     }
     .navbar a{
         margin-left:35px ;
+        width: auto;
     }
     .navbar{
         margin-left: -35px;
