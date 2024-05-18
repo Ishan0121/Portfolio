@@ -400,9 +400,10 @@ header.sticky{
         font-size:  15px; 
         margin-bottom: 1.25rem;
     }
-    footer.sticky{
+    footer{
         background:linear-gradient(90deg ,rgb(0, 0, 0),var(--base1) ) ;
-        box-shadow: 0 0 20px var(--base2);
+        box-shadow: 0 0 20px #206c69;
+        border-radius: 50px;
     }
     .about,.home,.contact{
         display:block;
