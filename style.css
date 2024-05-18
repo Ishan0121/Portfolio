@@ -85,7 +85,10 @@ header.sticky{
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
-    padding-block: 16rem 9rem;
+    padding-block: 13rem 12rem;
+}
+.about{
+    padding-block: 15rem 10rem;
 }
 
 .home-content, .about-content{
