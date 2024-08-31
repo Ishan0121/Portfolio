@@ -1,4 +1,4 @@
-# Portfolio 
+# Portfolio Website
 Welcome to my very first portfolio .
 
 
@@ -12,9 +12,9 @@ Welcome to my very first portfolio .
 ---
 
 ## Introduction
-Feel free to explore my website.
+Feel free to explore my Portfolio Website.
 <img src="./assets/Screenshot 2024-08-31 185720.png" alt="Website preview" style="width: 100%; max-width: 600px; height: auto; margin: 20px 0;">
-<a target="_blank" href="https://Ishan0121.github.io/Portfolio/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #3498db; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px; margin-bottom: 20px;">Visit Portfolio ↗</a>
+<a target="_blank" href="https://Ishan0121.github.io/Portfolio/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #3498db; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px; margin-bottom: 20px;">Visit Portfolio Website ↗</a>
 
 ---
 
