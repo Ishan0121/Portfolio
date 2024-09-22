@@ -91,7 +91,9 @@ header.sticky{
 .about{
     padding-block: 15rem 10rem;
 }
-
+.txtt p{
+    text-align: justify;
+}
 .home-content, .about-content{
     max-width: 600px;
 }
